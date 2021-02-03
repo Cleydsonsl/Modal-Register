@@ -2,19 +2,19 @@ import styled from 'styled-components';
 import { shade } from 'polished';
 
 export const Title = styled.h1`
-  font-size: 48px;
+  font-size: 45px;
   color: #3A3A3A;
   margin-top: 80px;
   flex: 1;
 
-`;
-
-export const Form = styled.form`
   margin-top: 40px;
   display: flex;
   align-items: center;
+  margin-left: 20px;
 
   button {
+    
+    margin-left: auto;
     align-content: center;
     width: 200px;
     height: 70px;
@@ -29,6 +29,7 @@ export const Form = styled.form`
       background: ${shade(0.2, '#04d361')}
     }
   }
+
 `;
 
 export const RegisterForm = styled.div`

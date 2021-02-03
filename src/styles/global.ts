@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-import background from '../assets/background.png';
+import logo from '../assets/nutcache.png';
 
 export default createGlobalStyle`
   * {
@@ -11,7 +11,8 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #F0F0F5;
+    margin-top: 50px;
+    background: #F0F0F5 url(${logo}) no-repeat 50% top;
     -webkit-font-smoothing: antialiased;
   }
 

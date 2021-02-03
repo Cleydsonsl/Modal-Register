@@ -13,6 +13,7 @@
     "@types/react-modal": "^3.10.6",
     "@types/react-select": "^4.0.11",
     "@types/styled-components": "^5.1.7",
+    "@types/styled-react-modal": "^1.2.0",
     "polished": "^4.1.0",
     "react": "^17.0.1",
     "react-date-picker": "^8.0.7",
@@ -24,6 +25,7 @@
     "react-scripts": "4.0.1",
     "react-select": "^4.0.2",
     "styled-components": "^5.2.1",
+    "styled-react-modal": "^2.0.1",
     "typescript": "^4.0.3",
     "web-vitals": "^0.2.4"
   },
